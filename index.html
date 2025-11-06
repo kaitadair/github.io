@@ -1,1 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kaitlyn Adair — Digital Portfolio</title>
+  <meta name="description" content="Portfolio showcasing software, databases, and UX projects." />
+  <meta property="og:title" content="Kaitlyn Adair — Digital Portfolio" />
+  <meta property="og:description" content="Projects, coursework, and achievements." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div>
+        <h1 class="site-title">Kaitlyn Adair</h1>
+        <p class="site-subtitle">Software • Databases • UX</p>
+      </div>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#links">Links</a></li>
+          <li><a href="#coursework">Coursework</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container">
+        <h2 class="hero-title">Digital Portfolio</h2>
+        <p class="hero-lead">
+          I’m a Computer Science student at Weber State University focused on
+          full-stack development, data, and human-centered design. Below are selected works,
+          active repositories, and ways to connect.
+        </p>
+      </div>
+    </section>
+
+    <section id="links" class="section">
+      <div class="container">
+        <h3>Quick Links</h3>
+        <div class="links-grid">
+          <a class="chip" href="https://github.com/YOURUSERNAME" target="_blank" rel="noopener">GitHub Profile ↗</a>
+          <a class="chip" href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <!-- Add any other important links here -->
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h3>Highlighted Projects</h3>
+
+        <div class="grid">
+          <!-- Concept Center -->
+          <article class="card">
+            <header class="card-header">
+              <h4>Concept Center (Multi-Module ASP.NET Core)</h4>
+              <span class="tag">C# / EF Core / Razor</span>
+            </header>
+            <p class="card-body">
+              Multi-role web app (Admin, Client, Intern, Student) with payments, loyalty points,
+              notifications, and project workflows. Focus on clean domain modeling and data integrity.
+            </p>
+            <ul class="meta">
+              <li>Many-to-many relationships, Stripe/Touchnet integration</li>
+              <li>UoW + Repository pattern, Identity, migrations</li>
+            </ul>
+            <footer class="card-footer">
+              <a class="btn" href="https://github.com/YOURUSERNAME/ConceptCenter_Fall2025" target="_blank" rel="noopener">Repository ↗</a>
+            </footer>
+          </article>
+
+          <!-- LocalEats -->
+          <article class="card">
+            <header class="card-header">
+              <h4>LocalEats — Food Delivery</h4>
+              <span class="tag">ASP.NET MVC / SQL</span>
+            </header>
+            <p class="card-body">
+              Restaurant ordering and delivery system with menu management and order tracking.
+            </p>
+            <ul class="meta">
+              <li>Entity relationships, payment flow prototypes</li>
+              <li>Clean Razor Pages and Bootstrap UI</li>
+            </ul>
+            <footer class="card-footer">
+              <a class="btn" href="https://github.com/YOURUSERNAME/LocalEats" target="_blank" rel="noopener">Repository ↗</a>
+            </footer>
+          </article>
+
+          <!-- Paged Memory Simulator -->
+          <article class="card">
+            <header class="card-header">
+              <h4>Paged Memory Simulator</h4>
+              <span class="tag">C / OS</span>
+            </header>
+            <p class="card-body">
+              Simulates paging and replacement algorithms (Optimal, FIFO, Second-Chance) and computes fault rates.
+            </p>
+            <ul class="meta">
+              <li>CLI tool, reproducible runs</li>
+              <li>Clear reporting of miss/fault metrics</li>
+            </ul>
+            <footer class="card-footer">
+              <a class="btn" href="https://github.com/YOURUSERNAME/PagedMemorySimulator" target="_blank" rel="noopener">Repository ↗</a>
+            </footer>
+          </article>
+
+          <!-- DB Admin Simulation -->
+          <article class="card">
+            <header class="card-header">
+              <h4>Database Admin Simulation</h4>
+              <span class="tag">Python / MySQL / MongoDB</span>
+            </header>
+            <p class="card-body">
+              Scripts that update employee data, restructure workforce status, and project salaries across data stores.
+            </p>
+            <ul class="meta">
+              <li>ETL patterns, connectors, secrets management</li>
+              <li>Reports and notebook outputs</li>
+            </ul>
+            <footer class="card-footer">
+              <a class="btn" href="https://github.com/YOURUSERNAME/DBAdminSimulation" target="_blank" rel="noopener">Repository ↗</a>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="coursework" class="section">
+      <div class="container">
+        <h3>Coursework Highlights</h3>
+        <ul class="bullets">
+          <li><strong>CS 3030:</strong> Bash scripting, automation, log pipelines</li>
+          <li><strong>CS 3550:</strong> Software Engineering, Agile boards, requirements</li>
+          <li><strong>CS 3620:</strong> Database Systems, SQL + NoSQL integration</li>
+          <li><strong>CS 3750:</strong> HCI, accessibility, Outcome-Accountable Design Board</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h3>Contact</h3>
+        <p>
+          The best way to reach me is via <a href="mailto:YOUR.EMAIL@domain.com">email</a> or
+          through <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">LinkedIn</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Kaitlyn Adair · Hosted on GitHub Pages</small>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year automatically
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
 
